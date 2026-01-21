@@ -194,9 +194,9 @@ export component AppWindow inherits Window {
 
                     ListView {
                         height: 240px;
-                        for result in root.results : Rectangle {
+                        for result[index] in root.results : Rectangle {
                             height: 32px;
-                            background: index % 2 == 0 ? #111827 : #0b1220;
+                            background: (index / 2) * 2 == index ? #111827 : #0b1220;
                             HorizontalLayout {
                                 padding: 8px;
                                 spacing: 12px;
