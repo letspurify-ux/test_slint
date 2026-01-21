@@ -12,5 +12,5 @@ cargo run
 
 - The app uses mock data for query results and status updates.
 - Hook up Oracle connectivity by replacing the `run_query` callback in `src/main.rs`.
-- Uses Rust 2021 edition to stay compatible with Cargo 1.82.
+- Uses Rust 2021 edition for compatibility with recent Cargo releases.
 - The `aligned` dependency disables optional features to avoid Edition 2024 requirements.
