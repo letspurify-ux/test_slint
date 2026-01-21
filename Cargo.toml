@@ -1,0 +1,12 @@
+[package]
+name = "toad_like"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+
+[dependencies]
+slint = "1.5"
+aligned = { version = "0.4.3", default-features = false, features = [] }
+
+[build-dependencies]
+slint-build = "1.5"
