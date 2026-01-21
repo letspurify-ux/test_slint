@@ -1,0 +1,10 @@
+[package]
+name = "toad_like"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slint = "1.5"
+
+[build-dependencies]
+slint-build = "1.5"
